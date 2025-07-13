@@ -9,6 +9,6 @@ def binarySearch(arr, target):
             return mid
         elif guess > target:
             high = mid - 1
-        elif guess < target:
+        else:
             low = mid + 1
         return None
