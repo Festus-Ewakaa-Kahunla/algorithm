@@ -10,6 +10,7 @@ main()
     step = 20;
 
     F = lower;
+    printf("Farenheit to Celsius\n");
     while (F <= upper)
     {
         C = 5 * (F - 32) / 9;
